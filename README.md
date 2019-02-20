@@ -31,14 +31,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## Git logの修正
-
-```sh
-git filter-branch -f --env-filter \
-  "GIT_AUTHOR_NAME='TakehiroTakahashi'; \
-   GIT_AUTHOR_EMAIL='taka.mc.0509@gmail.com'; \
-   GIT_COMMITTER_NAME='TakehiroTakahashi'; \
-   GIT_COMMITTER_EMAIL='taka.mc.0509@gmail.com';" \
-  HEAD
-```
